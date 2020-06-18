@@ -1,0 +1,5 @@
+{
+    "1a426d85.b0df72": {
+        "connectionstring": "HostName=IoT-Hub-usecase.azure-devices.net;DeviceId=truckDevice;SharedAccessKey=a9GIz3e1A6UehubYCcxv3ofZqtICdgPgUFfBdCFqnjI="
+    }
+}

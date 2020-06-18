@@ -1,0 +1,57 @@
+[
+    {
+        "id": "f80d2f4d.b62e3",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e0b1bdc5.b32f8",
+        "type": "inject",
+        "z": "f80d2f4d.b62e3",
+        "name": "",
+        "topic": "",
+        "payload": "temp: 30",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 140,
+        "y": 80,
+        "wires": [
+            [
+                "1a426d85.b0df72"
+            ]
+        ]
+    },
+    {
+        "id": "38962caa.bddd24",
+        "type": "debug",
+        "z": "f80d2f4d.b62e3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 610,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "1a426d85.b0df72",
+        "type": "azureiothub",
+        "z": "f80d2f4d.b62e3",
+        "name": "Azure IoT Hub",
+        "protocol": "mqtt",
+        "x": 380,
+        "y": 80,
+        "wires": [
+            [
+                "38962caa.bddd24"
+            ]
+        ]
+    }
+]

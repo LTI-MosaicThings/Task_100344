@@ -51,8 +51,23 @@
         "y": 80,
         "wires": [
             [
-                "38962caa.bddd24"
+                "38962caa.bddd24",
+                "da1cf489.5d11e8"
             ]
         ]
+    },
+    {
+        "id": "da1cf489.5d11e8",
+        "type": "debug",
+        "z": "f80d2f4d.b62e3",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 640,
+        "y": 180,
+        "wires": []
     }
 ]

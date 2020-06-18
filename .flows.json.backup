@@ -35,7 +35,8 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "x": 610,
         "y": 80,
         "wires": []
